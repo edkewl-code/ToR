@@ -209,8 +209,6 @@
     .field-box {
       display: flex;
       flex-direction: column;
-      /* Allow this grid/flex item to shrink below input's intrinsic min-content */
-      min-width: 0;
     }
     .field-box label {
       font-family: var(--font-heading);
@@ -228,8 +226,6 @@
       border: 1px solid var(--accent-gold);
       background: var(--bg-card);
       color: var(--text-main);
-      /* Prevent browsers' default min-width from forcing layout overflow */
-      min-width: 0;
     }
     .field-box.highlight-exp input {
       background: #FFF8DC;
